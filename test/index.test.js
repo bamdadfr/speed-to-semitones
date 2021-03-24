@@ -73,7 +73,7 @@ describe ('testing return values', () => {
 
     })
 
-    it ('should return 12.000 semitones if speed is 2 and digits is 1', () => {
+    it ('should return 12.000 semitones if speed is 2 and digits is 3', () => {
 
         expect (
             speedToSemitones (2, 3),
