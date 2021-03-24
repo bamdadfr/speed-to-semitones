@@ -26,6 +26,16 @@
     <img alt="snyk vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/speed-to-semitones">
 </p>
 
+## installation
+
+```bash
+# npm
+npm install speed-to-semitones
+
+# yarn
+yarn add speed-to-semitones
+```
+
 ## parameters
 
 1. `speed` number
