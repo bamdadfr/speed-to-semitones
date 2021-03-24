@@ -1,3 +1,19 @@
+# [1.1.0](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.0.2...v1.1.0) (2021-03-24)
+
+
+### Bug Fixes
+
+* **codecov:** removing coverage folder from SCM ([79bd094](https://github.com/bamdadsabbagh/speed-to-semitones/commit/79bd094ec295ac14d7e3f373d32016648b9bfae7))
+* **codecov workflow:** do test within workflow ([5310fa6](https://github.com/bamdadsabbagh/speed-to-semitones/commit/5310fa6c0cdb9cdb0cccc230361f069aff99c0d6))
+* **ignore:** added coverage folder ([3e2ae0e](https://github.com/bamdadsabbagh/speed-to-semitones/commit/3e2ae0e2dde7d45ac430f9a5692b3d4aa8db6f40))
+* **license:** added ([e8ae8a4](https://github.com/bamdadsabbagh/speed-to-semitones/commit/e8ae8a41447ab5f1bf53c75e52440fbdc7ea7a32))
+* **readme:** added badges and small improvements ([d3ebff5](https://github.com/bamdadsabbagh/speed-to-semitones/commit/d3ebff5e3c863343c18095c472a5d585860b7aa6))
+
+
+### Features
+
+* **codecov:** added ([7ea78c9](https://github.com/bamdadsabbagh/speed-to-semitones/commit/7ea78c959abab5d06bfed6f4f6d209f84f0cdeb2))
+
 ## [1.0.2](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.0.1...v1.0.2) (2021-03-24)
 
 
