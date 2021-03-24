@@ -1,7 +1,7 @@
 {
-    "name": "speed-to-semitone",
+    "name": "speed-to-semitones",
     "version": "1.0.0",
-    "description": "Calculate semitone from audio speed",
+    "description": "Calculate semitones from audio speed",
     "keywords": [
         "audio",
         "pitch",
