@@ -1,6 +1,6 @@
 {
     "name": "speed-to-semitones",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Calculate semitones from audio speed",
     "keywords": [
         "audio",
