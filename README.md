@@ -2,6 +2,11 @@
 
 calculate semitones from audio speed
 
+## parameters
+
+- `speed` number
+- `digits` number, optional, between `0` and `20`
+
 ## examples
 
 ### as `default` export
