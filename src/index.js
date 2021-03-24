@@ -1,6 +1,6 @@
 /**
- * speedToSemitone()
- * Calculate semitone from speed
+ * speedToSemitones()
+ * calculate semitones from audio speed
  *
  * normal speed is 1
  *
@@ -11,7 +11,7 @@
  * @returns {string} semitones
  */
 
-const speedToSemitone = (speed, digits = 0) => {
+const speedToSemitones = (speed, digits = 0) => {
 
     if (typeof speed !== 'number') throw new TypeError ('speed parameter should be a number')
 
@@ -25,6 +25,6 @@ const speedToSemitone = (speed, digits = 0) => {
 
 }
 
-module.exports = speedToSemitone
+module.exports = speedToSemitones
 
-module.exports.speedToSemitone = speedToSemitone
+module.exports.speedToSemitones = speedToSemitones
