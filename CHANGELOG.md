@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.0.0...v1.0.1) (2021-03-24)
+
+
+### Bug Fixes
+
+* **npm:** dummy version bump [force-release] ([9eea22a](https://github.com/bamdadsabbagh/speed-to-semitones/commit/9eea22af77446098ebdb5c5a2a854b810d81265e))
+
 # 1.0.0 (2021-03-24)
 
 
