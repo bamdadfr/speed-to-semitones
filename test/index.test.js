@@ -42,6 +42,28 @@ describe ('testing parameters', () => {
 
     })
 
+    it ('should refuse a number lower than 0 as digits parameter', () => {
+
+        expect (() => {
+
+            speedToSemitones (1, -1)
+
+        })
+            .toThrowError ()
+
+    })
+
+    it ('should refuse a number higher than 20 as digits parameter', () => {
+
+        expect (() => {
+
+            speedToSemitones (1, 21)
+
+        })
+            .toThrowError ()
+
+    })
+
 })
 
 describe ('testing return values', () => {
