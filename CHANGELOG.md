@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.1...v1.1.2) (2021-03-25)
+
+
+### Bug Fixes
+
+* **test:** added `digits` parameters outside range cases ([ddb8f5e](https://github.com/bamdadsabbagh/speed-to-semitones/commit/ddb8f5e80acd3fa4e00108ee640c5c5eecd50028))
+* **test:** typo ([8ace091](https://github.com/bamdadsabbagh/speed-to-semitones/commit/8ace091f232708adde945bcc20eb0e4735f24ca1))
+
 ## [1.1.1](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.0...v1.1.1) (2021-03-24)
 
 
