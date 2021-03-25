@@ -1,15 +1,15 @@
-name: semantic-release-yarn--onMondays-1030
+name: semantic-release-yarn--onMondays-0930
 
 on:
   schedule:
-    - cron: '30 10 * * 1' # every monday at 1030
+    - cron: '30 9 * * 1' # every monday at 0930
   repository_dispatch:
     types:
       - docker-base-image-check
       - git-commit-force-release
 
 jobs:
-  semantic-release-yarn--onMondays-1030:
+  semantic-release-yarn--onMondays-0930:
     runs-on: ubuntu-latest
     steps:
 
