@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.2...v1.1.3) (2021-03-25)
+
+
+### Bug Fixes
+
+* **package.json:** consistent naming ([5cc58f4](https://github.com/bamdadsabbagh/speed-to-semitones/commit/5cc58f4d97bb6fe6851d6b4f0d973599dac98262))
+* **workflows:** better release cycle ([07efc57](https://github.com/bamdadsabbagh/speed-to-semitones/commit/07efc57c0199722260323a1a4bb4f7dda3a4ad0e))
+
 ## [1.1.2](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.1...v1.1.2) (2021-03-25)
 
 
