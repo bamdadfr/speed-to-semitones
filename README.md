@@ -11,7 +11,7 @@
 
 <p>
     <img alt="languages used" src="https://img.shields.io/github/languages/count/bamdadsabbagh/speed-to-semitones">
-    <img alt="language most used" src="https://img.shields.io/github/languages/top/bamdadsabbagh/speed-to-semitones">
+    <img alt="language top" src="https://img.shields.io/github/languages/top/bamdadsabbagh/speed-to-semitones">
 </p>
 
 <p>
