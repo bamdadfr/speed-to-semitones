@@ -1,9 +1,6 @@
 /**
- * speedToSemitones()
- * calculate semitones from audio speed
- *
- * normal speed is 1
- *
+ * @function speedToSemitones
+ * @description calculate semitones from audio speed, normal speed is 1
  * @param {number} speed - playback speed
  * @param {number} digits - number of digits to appear after the decimal point
  *      value between 0 and 20
