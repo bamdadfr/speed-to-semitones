@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.3...v1.1.4) (2021-04-06)
+
+
+### Bug Fixes
+
+* **jsdoc:** added `function` and `description` tags ([63b76a6](https://github.com/bamdadsabbagh/speed-to-semitones/commit/63b76a6977010918d5eda0572229b3b2665e1209))
+
 ## [1.1.3](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.2...v1.1.3) (2021-03-25)
 
 
