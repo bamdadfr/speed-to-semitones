@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.4...v1.2.0) (2021-04-27)
+
+
+### Features
+
+* **app:** bye CommonJS, exporting as ES module ([907a73d](https://github.com/bamdadsabbagh/speed-to-semitones/commit/907a73dd7591e6d6273f6c104edcf2a500c10f4c))
+
 ## [1.1.4](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.3...v1.1.4) (2021-04-06)
 
 
