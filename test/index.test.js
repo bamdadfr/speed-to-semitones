@@ -1,4 +1,4 @@
-const speedToSemitones = require ('../src/index')
+import speedToSemitones from '../src'
 
 describe ('testing parameters', () => {
 

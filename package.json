@@ -31,16 +31,20 @@
         "src"
     ],
     "scripts": {
-        "test": "jest && codecov",
+        "jest": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+        "test": "yarn jest && codecov",
+        "package:reinstall": "rimraf node_modules && yarn",
         "package:sort": "npx sort-package-json"
     },
-    "devDependencies": {
-        "@bamdadsabbagh/eslint-config": "^1.9.1",
-        "codecov": "^3.8.1",
-        "jest": "^26.6.3"
-    },
     "jest": {
-        "coverageDirectory": "./coverage/",
-        "collectCoverage": true
+        "collectCoverage": true,
+        "coverageDirectory": "./coverage/"
+    },
+    "devDependencies": {
+        "@bamdadsabbagh/eslint-config": "^1.9.6",
+        "codecov": "^3.8.1",
+        "cross-env": "^7.0.3",
+        "jest": "^26.6.3",
+        "rimraf": "^3.0.2"
     }
 }
