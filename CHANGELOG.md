@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.2.0...v1.2.1) (2021-06-11)
+
+
+### Bug Fixes
+
+* **deps:** updated deps to latest ([fc37047](https://github.com/bamdadsabbagh/speed-to-semitones/commit/fc3704772291ce4dbe8ba57c6b6e95073dc4bdcb))
+* **doc:** better jsdoc ([9fd3fda](https://github.com/bamdadsabbagh/speed-to-semitones/commit/9fd3fdab2d65614aa38b0ceac33380de909b2252))
+
 # [1.2.0](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.1.4...v1.2.0) (2021-04-27)
 
 
