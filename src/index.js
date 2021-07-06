@@ -2,11 +2,11 @@
  * @function
  * @name speedToSemitones
  * @description calculate semitones from audio speed, normal speed is 1
- * @param {Number} speed - playback speed
- * @param {Number} [digits=0] - number of digits to appear after the decimal point
+ * @param {number} speed - playback speed
+ * @param {number} [digits=0] - number of digits to appear after the decimal point
  *      value between 0 and 20
  *      truncated
- * @return {String} semitones
+ * @returns {string} semitones
  */
 export default function speedToSemitones (speed, digits = 0) {
 
