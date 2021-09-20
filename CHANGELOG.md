@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.2.2...v1.3.0) (2021-09-20)
+
+
+### Bug Fixes
+
+* **release:** update ci workflows ([4b732ec](https://github.com/bamdadsabbagh/speed-to-semitones/commit/4b732ecb32174c74375fa8b118674a772564d8c8))
+
+
+### Features
+
+* update deps to latest ([c4dacd4](https://github.com/bamdadsabbagh/speed-to-semitones/commit/c4dacd485b6b3d15886887ad2e03c5533e9d610a))
+
 ## [1.2.2](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.2.1...v1.2.2) (2021-07-12)
 
 
