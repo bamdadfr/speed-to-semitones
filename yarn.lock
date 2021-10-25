@@ -336,9 +336,9 @@
     to-fast-properties "^2.0.0"
 
 "@bamdadsabbagh/eslint-config@^1.16.6":
-  version "1.16.6"
-  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/eslint-config/-/eslint-config-1.16.6.tgz#42dbe6e024de8f7e0a49d43883208da64d0b7282"
-  integrity sha512-cBrGlo95br0H0FBvI1GmOqrBwofB8+z3DJ623oJKL3P0/W6f3DxMuk7Y9ogkY/nMNkdyWImRmvNlYUnZVCn4TQ==
+  version "1.16.12"
+  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/eslint-config/-/eslint-config-1.16.12.tgz#fd64c731d28eb7a9acfa994bfdc00f6a610b9ee2"
+  integrity sha512-coCX2rXs5KzTdh4T0Ew2NVacjSOX2jS2kA7ktfHzzQzqjJAYD+m7egZZ7wVTLoqegq+RcNs71N+08ryRwq8qVQ==
   dependencies:
     "@babel/core" "^7.15.0"
     "@babel/eslint-parser" "^7.15.0"
