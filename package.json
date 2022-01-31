@@ -41,7 +41,7 @@
         "coverageDirectory": "./coverage/"
     },
     "devDependencies": {
-        "@bamdadsabbagh/eslint-config": "^1.16.6",
+        "@bamdadsabbagh/eslint-config": "^2.0.13",
         "codecov": "^3.8.3",
         "cross-env": "^7.0.3",
         "jest": "^27.2.1",
