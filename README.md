@@ -1,50 +1,24 @@
-# speed-to-semitones
+![release](https://img.shields.io/github/v/release/bamdadsabbagh/speed-to-semitones)
+![license](https://img.shields.io/github/license/bamdadsabbagh/speed-to-semitones)
+![maintainability](https://img.shields.io/codeclimate/maintainability/bamdadsabbagh/speed-to-semitones)
+![coverage](https://img.shields.io/codeclimate/coverage/bamdadsabbagh/speed-to-semitones)
+![snyk](https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/speed-to-semitones)
 
-> calculate semitones from audio speed
+Convert the audio playback speed to a number of semitones based on the chromatic scale.
 
-<p>
-    <a href="https://github.com/bamdadsabbagh/speed-to-semitones">
-        <img alt="github stars" src="https://img.shields.io/github/stars/bamdadsabbagh/speed-to-semitones">
-    </a>
-    <img alt="license" src="https://img.shields.io/github/license/bamdadsabbagh/speed-to-semitones">
-</p>
+Normal playback speed is 1.0, which is a pitch of 0 semitones.
 
-<p>
-    <img alt="languages used" src="https://img.shields.io/github/languages/count/bamdadsabbagh/speed-to-semitones">
-    <img alt="language top" src="https://img.shields.io/github/languages/top/bamdadsabbagh/speed-to-semitones">
-</p>
-
-<p>
-    <img alt="release version" src="https://img.shields.io/github/v/release/bamdadsabbagh/speed-to-semitones">
-    <img alt="code climate" src="https://api.codeclimate.com/v1/badges/e9b9fa29e994f3006aa4/maintainability" />
-    <img alt="codecov" src="https://img.shields.io/codecov/c/github/bamdadsabbagh/speed-to-semitones">
-</p>
-
-<p>
-    <img alt="dependencies" src="https://img.shields.io/david/bamdadsabbagh/speed-to-semitones">
-    <img alt="dev dependencies" src="https://img.shields.io/david/dev/bamdadsabbagh/speed-to-semitones">
-    <img alt="snyk vulnerabilities" src="https://img.shields.io/snyk/vulnerabilities/github/bamdadsabbagh/speed-to-semitones">
-</p>
-
-## installation
+## 🚀 Use
 
 ```bash
-# npm
-npm install speed-to-semitones
-
-# yarn
 yarn add speed-to-semitones
 ```
 
-## parameters
-
-1. `speed` number
-2. `digits` number, optional, between `0` and `20`
-
-## example
+### ⚡ Example
 
 ```javascript
 import speedToSemitones from 'speed-to-semitones'
 
-const semitones = speedToSemitones(0.5) // returns "-12"
+const double = speedToSemitones(2) // returns the string 12
+const moreDigits = speedToSemitones(2, 3) // returns the string 12.000
 ```
