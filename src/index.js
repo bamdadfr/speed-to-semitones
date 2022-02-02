@@ -1,23 +1,29 @@
 /**
- * @function
- * @name speedToSemitones
- * @description calculate semitones from audio speed, normal speed is 1
- * @param {number} speed - playback speed
- * @param {number} [digits=0] - number of digits to appear after the decimal point
- *      value between 0 and 20
- *      truncated
- * @returns {string} semitones
+ * Convert the audio playback speed to a number of semitones based on the chromatic scale.
+ * Normal playback speed is 1.0, which is a pitch of 0 semitones.
+ *
+ * @param {number} speed
+ *    The audio playback speed.
+ * @param {number} [digits=0]
+ *    The number of digits to truncate the result to.
+ *    Digits can not be lower than 0 and greater than 20.
+ * @returns {string}
+ *    The semitones.
  */
-export default function speedToSemitones (speed, digits = 0) {
+export default function speedToSemitones(speed, digits = 0) {
+  if (typeof speed !== 'number') {
+    throw new TypeError('speed is not a number');
+  }
 
-    if (typeof speed !== 'number') throw new TypeError ('speed parameter should be a number')
+  if (typeof digits !== 'number') {
+    throw new TypeError('digits is not a number');
+  }
 
-    if (typeof digits !== 'number') throw new TypeError ('digits parameter should be a number')
+  if (digits < 0 || digits > 20) {
+    throw new TypeError('digits is out of range');
+  }
 
-    if (digits < 0 || digits > 20) throw new TypeError ('digits parameter should be between 0 and 20')
+  const semitones = 12 * (Math.log(speed) / Math.log(2));
 
-    const semitones = 12 * (Math.log (speed) / Math.log (2))
-
-    return semitones.toFixed (digits)
-
+  return semitones.toFixed(digits);
 }
