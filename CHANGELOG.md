@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.3.0...v1.3.1) (2022-02-02)
+
+
+### Performance Improvements
+
+* Add typescript definitions + Apply last eslint rules + Improve JSDoc + Replace coverage provider ([614878b](https://github.com/bamdadsabbagh/speed-to-semitones/commit/614878b2b5a73bad0559fa22631cb6f2e9192d70))
+
 # [1.3.0](https://github.com/bamdadsabbagh/speed-to-semitones/compare/v1.2.2...v1.3.0) (2021-09-20)
 
 
